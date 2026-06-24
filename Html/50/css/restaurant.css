@@ -1,0 +1,105 @@
+html{
+    background-color: white;
+}
+header {
+   
+   border: 8px solid firebrick;
+   border-radius: 4px;
+    text-align: center;
+    margin:auto;
+    /* background-color: lightsalmon; */
+}
+h1{
+    font-size: 75px;
+
+}
+h2{
+    
+    background-color: lightcoral;
+    max-width:575px;
+    margin:auto;
+    margin-bottom:1em;
+    border: 2px solid black;
+}
+
+h3{
+    font-weight: 1000;
+    font-size: 55px;
+    text-align: center;
+    background-color:tan;
+}
+
+
+
+h4{
+    font-size: 30px;
+    text-align:center;
+}
+img{
+    margin-bottom:1em;
+}
+nav{
+    margin:auto;
+    font-size: 20px;
+    margin-bottom:1em;
+}
+
+a{
+    color: crimson;
+    text-decoration: none;
+
+}
+a:hover{
+    
+    text-decoration: underline;
+}
+
+a:visited{
+    color:cadetblue;
+}
+a:active{
+    color:blue;
+}
+
+.price{
+    margin:auto;
+    margin-bottom:2em;
+}
+
+div{
+    margin:auto;
+}
+section img{
+    margin:auto;
+    display: block;
+}
+section{
+    border:2px solid black;
+    /* border-bottom: 2px solid black;
+    border-top: 2px solid black; */
+    max-width: 80%;
+    margin:auto;
+    margin-bottom: 2em;
+    margin-bottom: 2em;
+    ;
+
+
+}
+p{
+    text-align:center;
+    max-width: 900px;
+    margin:auto;
+}
+.details, .review{
+    font-style: italic;
+    margin-top: 1em;;
+    margin-bottom: 1em;
+    padding: 1em;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+p .Price, .name{
+    text-emphasis:bold!important;
+    font-size: 14px;
+}
