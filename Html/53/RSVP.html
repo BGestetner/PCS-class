@@ -1,0 +1,219 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel = "stylesheet" href ="restaurant.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Joti+One&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+        section{
+            border-radius: 10px;
+        }
+        h4{
+            font-size: 28px;
+            color:firebrick;
+        }
+        input{
+            height:3.5%;
+            border-color:firebrick;
+            border-style:solid;
+            border-radius:5px;
+            margin:1;
+        }
+        #name, #name2{
+            width:60%; 
+        }
+        #email, #email2{
+            width:80%;
+
+        }
+        #date-time input{
+            width:30%;
+            text-align: center;
+        }
+        label{
+            margin-left:2%;
+            line-height:3%;
+            vertical-align: center;
+             color:firebrick;
+            text-shadow: 3px 3px 15px gray;
+            font-size: 20px;
+            
+
+        }
+        button{
+            margin-left:43%;
+            margin-right:43%;
+            box-sizing: border-box;
+             width:14%; 
+            min-width :60px;
+            color:firebrick;
+            border-radius:5px;
+        }
+        article{
+            width:100%;
+            margin:1%;
+            padding:0.5%;
+        }
+      textarea{
+         height:10%;
+            width:50%;
+            border-color:firebrick;
+            border-style:solid;
+            border-radius:5px;
+            margin:1;
+            font-family: 'Courier New', Courier, monospace;
+      }
+      table {
+        border-collapse: collapse;
+      }
+
+      table *:not(caption){
+       color:crimson;
+       
+      }
+        th,
+      td {
+        border: 1px solid black;
+        
+      }
+
+       th::first-letter{
+        font-size: larger;
+
+       }
+       tr:nth-child(2n){
+        background-color: antiquewhite;
+       }
+       td +.special{
+        font-size:3em;
+        color: blue;
+       }
+      tr>td{
+        color:blue;
+       }
+       table th{
+        text-decoration: underline;
+       }
+    </style>
+</head>
+<body>
+   <header>
+        <h1>PCS Restaurant</h1>
+        <h2 class="dancing-script">Fresh and delicious!</h2>
+        <!--image src = /html/images\veggieburger.webp /-->
+        <image src =images\Salad.jpg />
+        <!--image src = /html/images\Teriyaki_Chicken.jpg /-->
+        <image src = images\soup.jpg />
+        <image src = images\steak.jpg />
+         <nav>
+                <a href =index.html> Home </a> |
+                <a href =OurMenu.html> Menu </a> |
+                <a href =AboutUs.html> About Us</a> |
+                <a href =Reviews.html> Reviews</a> |
+                <a href = Rsvp.html>Rsvp </a> 
+    </header>
+    <div>
+        <h3>RSVP </h3>
+        <section>
+            <h4 class="dancing-script"> To reserve a table, please fill in the information below.</h2>
+            <form >
+                <article >
+                    <label for="name" class="dancing-script"> Name:</label>
+                    <input type="text" name="name" id="name" required/>
+                </article>
+                <article id="to-rate">
+                    <label for ="email" class="dancing-script"> Email:
+                    <input type="email" name="email" id="email" required></label>
+                </article>
+                <article id="Date-Time">
+                    <label class="dancing-script">Date and time of Reservation:</label>
+                    <input type="date" name = "date" id="date" required>
+                    <input type ="time" name="time" id="time"  required>
+               </article>
+               <article>
+                    <label for="people" class="dancing-script"> Please enter the number of people you are reserving for:</label>
+                    <input type="number" id="people" name="people" min=1  max =100 required>
+                 </article>
+                <Button type="submit">Reserve Table</Button>
+                 <a href="#to-rate" >Review Us</a>
+            </form>
+        </section>
+        <section>
+            <h4><a href="Reviews.html">See Our Reviews!</a></h4>
+        </section>
+        <section>
+            <h4>Leave a review! Let others know about your great experience!</h4>
+            <form > 
+                <article>
+                    <label for="name2" class ="dancing-script"> Name: </label>
+                    <input type="text" id="name2" name="name2" required/>
+                </article>
+                <article>
+                    <label for ="email2" class="dancing-script">Email:</label>
+                    <input type="email" name="email2" id="email2"/>
+                </article>
+                <article>
+                    <label for="rating" class ="dancing-script"> Rate your experience:</label>
+                    <input type="range"name="rating" min="1" max="5" step="1" ticks required/>
+                </article>
+                <article>
+                    <label for="comment" class="dancing-script">Leave a review:<label>
+                    <textarea name="comment"></textarea>
+                    </label>
+                </article>
+                <button type="submit">Submit Review</button>
+            </form>
+        </section>
+        <section>
+            <table>
+                <caption> Some table That I couldn't figure out how to connect to a restaurant..</caption>
+                <thead>
+                    <th>Data</th>
+                    <th> More Data</th>
+                    <th>Even more Data...</th>
+                    <th>And more...</th>
+                </thead>
+                <tbody>
+                    <tr >
+                        <td class="special" >1</td>
+                        <td>A</td>
+                        <td>a</td>
+                        <td>.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>B</td>
+                        <td>b</td>
+                        <td>..</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>C</td>
+                        <td>c</td>
+                        <td>...</td>
+                    </tr>
+                    <tr class ="extra-special">
+                        <td>4</td>
+                        <td>D</td>
+                        <td>d</td>
+                        <td>....</td>
+                    </tr>
+                    <tr> <td colspan="4">I am taking Up 4 columns!</tr>
+                    <tr>
+                        <td>5</td>
+                        <td>E</td>
+                        <td>e</td>
+                        <td>......</td>
+                    </tr>
+                 
+
+                </tbody>
+            </table>
+        </section>
+    </div>
