@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice</title>
+    <style>
+        section{
+
+            width: 145px;
+            height:145px;
+            border:2px solid black;
+            border-radius:3.75px;
+            margin:3%;
+            display:grid;
+            box-shadow:1px 1px 2px black;
+        }
+
+        article{
+
+            background-color: black;
+            height:26px;
+            width:26px;
+            border-radius: 100%;
+            align-self: center;
+            justify-self:center;
+        }
+
+        article:nth-child(1){
+            grid-area:dot1;
+        }
+
+        article:nth-child(2){
+            grid-area:dot2;
+        }
+
+        article:nth-child(3){
+            grid-area:dot3;
+        }
+
+        article:nth-child(4){
+            grid-area:dot4;
+        }
+
+        article:nth-child(5){
+            grid-area:dot5;
+        }
+
+        article:nth-child(6){
+            grid-area:dot6;
+        }
+
+        .face1{
+            grid-template-areas:
+            '. .   .  .  .'
+            '. .   .  .  .'
+            '. . dot1 .  .'
+            '. .   .  .  .'
+            '. .   .  .  .';
+        }
+
+        section:nth-child(2){
+            grid-template-areas:
+            '.   .   .   .   .'
+            '. dot1  .   .   .'
+            '.   .   .   .   .'
+            '.   .   .  dot2 .'
+            '.   .   .   .   .';
+        }
+
+        section:nth-child(3){
+            grid-template-areas:
+            '.   .   .   .   .'
+            '. dot1  .   .   .'
+            '.   . dot3  .   .'
+            '.   .   .  dot2 .'
+            '.   .   .   .   .';
+        }
+
+        section:nth-child(4){
+            grid-template-areas:
+            '.   .   .   .   .'
+            '. dot1  .  dot4 .'
+            '.   .   .   .   .'
+            '. dot3  .  dot2 .'
+            '.   .   .   .   .';
+        }
+
+        section:nth-child(5){
+            grid-template-areas:
+            '.   .   .   .   .'
+            '. dot1  .  dot4 .'
+            '.   .  dot5 .   .'
+            '. dot3  .  dot2 .'
+            '.   .   .   .   .';
+        }
+
+        section:nth-child(6){
+          grid-template-areas:
+            '.   .   .   .   .'
+            '. dot1  . dot4  .'
+            '. dot3  . dot6   .'
+            '. dot5  . dot2  .'
+            '.   .   .   .   .';
+        }
+
+    </style>
+</head>
+<body>
+    <section class="face1">
+        <article></article>
+    </section>
+    <section class="face2">
+        <article></article>
+        <article></article>
+    </section>
+    <section class="face3">
+        <article></article>
+        <article></article>
+        <article></article>
+    </section>
+    <section class="face4">
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+    </section>
+    <section class="face5">
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+    </section>
+    <section class="face6">
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+        <article></article>
+    </section>
+
+    
+</body>
+</html>
