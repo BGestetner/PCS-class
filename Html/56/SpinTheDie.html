@@ -56,14 +56,6 @@
             grid-area:dot6;
         }
 
-        section:hover{
-            grid-template-areas:
-            '. .   .  .  .'
-            '. .   .  .  .'
-            '. . dot1 .  .'
-            '. .   .  .  .'
-            '. .   .  .  .';
-        }
  
         section:active{
             grid-template-areas:
@@ -72,6 +64,7 @@
             '.   .   .   .   .'
             '.   .   .  dot2 .'
             '.   .   .   .   .';
+            transition-duration: 2s;
         } 
  
         section::after{

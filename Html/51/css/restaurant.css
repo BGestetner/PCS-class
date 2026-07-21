@@ -13,7 +13,7 @@ header {
 }
 div{
     background-color: #691d1d;
-    background-image: url(/Html/51/images/Restaurant1.jpg);
+    background-image: url(/html/51/images/Restaurant1.jpg);
     background-repeat: none;
     background-size: cover;
     padding-top: 2em;
@@ -149,6 +149,7 @@ p .Price, .name{
     height:25%;
     width:30%;
     float:left;
+    clear:both;
 
 }
 h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,p:hover{
