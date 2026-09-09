@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid black;
+            background-color: aquamarine;
+            padding:4px;
+            border-radius:4px;
+            margin:4px;
+            width:25%;
+            display:inline-block;
+            font-size: 72px;
+            cursor: grab;
+
+            box-shadow: 4px 4px 10px  black;
+        
+        }
+        div:active{
+            cursor: grabbing;
+        }
+        #hide-me{
+            background-color: chartreuse;
+        }
+        #show-me{
+            background-color: palevioletred;
+        }
+        #surprise{
+            display:none;
+            position:absolute;
+            background-color: yellow;
+            width: 90%;
+            height:500px;
+            left:5%;
+            right:5%;
+            text-align: center;
+        }
+        #text-change{
+            background-color: aqua;
+        }
+        .new-class{
+           display:flex;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div id="hide-me"> Click me to hide me!</div>
+    <div id="show-me"> Click me to find  a surprise!</div>
+    <div id="surprise">Surprise!<button>dismiss</button></div>
+    <div id="sparkle"> Click me to see me sparkle!</div>
+    <div id="text-change">My text can change if you click me!</div>
+    <div id="add-class"><div>Click to</div><div>turn into</div><div>A flexbox!!</div></div>
+    <script src="pcsTools.js" type ="module"></script>
+    <script src="testPcsTools.js" type="module"></script>
+</body>
+
+</html>

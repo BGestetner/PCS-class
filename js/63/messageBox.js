@@ -5,7 +5,7 @@ let topOffset = -height / 2;
 let leftOffset = -width / 2;
 let nextZindex = 1;
 
-export default function (msg,  buttons, action) {
+export default function (msg,  buttons=['ok'], action = defaultAction) {
     console.log(msg,buttons.length);
 
     //Setting up the msgDiv
@@ -43,7 +43,8 @@ export default function (msg,  buttons, action) {
     buttons.forEach(function (element) {const newButton = document.createElement('button');
         newButton.innerText = element.value;
         ////////////////////////////////////////
-     newButton.addEventListener('click', () =>
+        
+        newButton.addEventListener('click', () =>
         {
          action();
         });
@@ -71,5 +72,9 @@ export default function (msg,  buttons, action) {
         div.style.zIndex = nextZindex++;
     });
 
-    document.appendChild(div);/////////////////////////////////
+    document.body.appendChild(div);/////////////////////////////////
+}
+
+function defaultAction() {
+    this.remove
 }
