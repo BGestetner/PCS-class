@@ -1,0 +1,20 @@
+[
+    {
+        "first": "Donald",
+        "last": "Trump",
+        "email": "president@whitehouse.org",
+        "phone": "501 312 3455"
+    },
+    {
+        "first": "Vladimir",
+        "last": "Putin",
+        "email": "vp@ukraine.corp",
+        "phone": "501 312 3455"
+    },
+    {
+        "first": "Joe",
+        "last": "Shmoe",
+        "email": "JoeS199@gmail.com",
+        "phone": "732 312 3455"
+    }
+]
