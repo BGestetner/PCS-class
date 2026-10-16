@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCS Recipes</title>
+    <style>
+
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            font-size: 16px;
+        }
+        #recipe{
+            border: 1px solid black;
+            border-radius: 2em;
+            display:none;
+            padding:1em;
+        }
+        #recipe-list{
+            height:2em;
+            border-radius: 6px;
+            font-size:20px;
+            margin:8px;
+        }
+        label{
+            font-size:20px;
+        }
+        div{
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #recipe-instructions{
+            /* display:block; */
+            width:70%;
+            margin-left:15%;
+        }
+    </style>
+</head>
+<body>
+        <h1>PCS Recipes</h1>
+        <label for="recipe-list">Recipes:</label>
+        <select id="recipe-list"> 
+            <option hidden>choose a recipe</option>
+            <option value="0">Challah</option>
+            <option value="1">Dill Dip</option>
+            <option value="2">Chicken Soup</option>
+            <option value="3">Kugel</option>
+            <option value="4">Chulent</option>
+        </select>
+        <h2 id="instructions">Choose a Recipe to View It</h2>
+        <div id="recipe">
+            <h2 id="recipe-name"></h2>
+            <img id="recipe-picture"/>
+            <h3>Ingredients:</h3>
+            <div id="ingredients-list"></div>
+            <h3>Instructions:</h3>
+            <div id="recipe-instructions"></div>
+        </div>
+
+
+    <script src="recipes.js" type="module"></script>
+</body>
+</html>

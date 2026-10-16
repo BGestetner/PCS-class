@@ -1,0 +1,28 @@
+[
+    {"index":"1",
+    "recipeName": "Challah",
+    "url": "recipes/challah.json"
+    },
+    {
+    "index": "2",
+    "recipeName": "Dill Dip",
+    "url": "recipes/dillDip.json"
+    },
+    {
+    "index": "3",
+    "recipeName": "Chicken Soup",
+    "url": "recipes/chickenSoup.json"
+    },
+    {
+        "index": "4",
+        "recipeName": "Potato Kugel",
+        "url": "recipes/kugel.json"
+    },
+    {
+        "index": "5",
+        "recipeName": "Chulent",
+        "url": "recipes/chulent.json"
+    }
+
+
+]

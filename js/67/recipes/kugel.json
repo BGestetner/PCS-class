@@ -1,0 +1,14 @@
+{
+    "recipe-name": "Kugel",
+    "ingredients": [
+        "12 potatoes",
+        "1 large onion",
+        "6 eggs",
+        "1 C oil",
+        "1 T salt",
+        "1 t sugar",
+        "1/2 t pepper"
+    ],
+    "instructions": "Grate the onion in a food processor, add the ppotatoes. In a 9x 13 pan add rest of ingredients. Bake at 390 for 2 hours",
+    "picture": "recipes/pictures/kugel.webp"
+}

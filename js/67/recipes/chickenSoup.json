@@ -1,0 +1,16 @@
+{
+    "recipe-name": "Chicken Soup",
+    "ingredients": [
+        "15 C water",
+        "chicken bones",
+        "5 carrots",
+        "1 turnip",
+        "2 parsnips",
+        "1 ginger",
+        "1 celery",
+        "1 onion",
+        "salt and pepper, to taste"
+    ],
+    "instructions": "Peel vegetables, put in a pot with water and chicken bones. Bring to a boil. Let simmer 6-8 hours for best results",
+    "picture": "recipes/pictures/chickenSoup.webp"
+}
